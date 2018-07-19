@@ -1,12 +1,12 @@
-.bsw-owl{background:#ededed}
+/* owl plugin by bacsiwindows */
 .bsw-owl,.bsw-owl .owl-item{-webkit-tap-highlight-color:transparent;position:relative}
 .bsw-owl{display:none;width:100%;z-index:1}
 .bsw-owl .owl-stage{position:relative;-ms-touch-action:pan-Y;-moz-backface-visibility:hidden}
 .bsw-owl .owl-stage:after{content:&quot;.&quot;;display:block;clear:both;visibility:hidden;line-height:0;height:0}
-.bsw-owl .owl-stage-outer{position:relative;overflow:hidden;-webkit-transform:translate3d(0,0,0)}
+.bsw-owl .owl-stage-outer{position:relative;-webkit-transform:translate3d(0,0,0)}
 .bsw-owl .owl-item,.bsw-owl .owl-wrapper{-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;-ms-backface-visibility:hidden;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0)}
 .bsw-owl .owl-item{min-height:1px;float:left;-webkit-backface-visibility:hidden;-webkit-touch-callout:none}
-.bsw-owl .owl-item img{display:block;width:100%}
+.bsw-owl .owl-item img{display:block;width:100%;max-height:720px}
 .bsw-owl .owl-dots.disabled,.bsw-owl .owl-nav.disabled{display:none}
 .no-js .bsw-owl,.bsw-owl.owl-loaded{display:block}
 .bsw-owl .owl-dot,.bsw-owl .owl-nav .owl-next,.bsw-owl .owl-nav .owl-prev{cursor:pointer;cursor:hand;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
